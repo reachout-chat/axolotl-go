@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/groups/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
+	"github.com/reachout-chat/axolotl-go/groups/state/record"
+	"github.com/reachout-chat/axolotl-go/protocol"
 )
 
 type SenderKey interface {

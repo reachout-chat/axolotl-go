@@ -1,9 +1,9 @@
 package record
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/util/bytehelper"
+	"github.com/reachout-chat/axolotl-go/util/optional"
 )
 
 // PreKeySerializer is an interface for serializing and deserializing

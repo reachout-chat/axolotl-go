@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/keys/identity"
+	"github.com/reachout-chat/axolotl-go/util/optional"
 )
 
 // PreKeySignalMessageSerializer is an interface for serializing and deserializing

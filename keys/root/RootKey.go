@@ -3,10 +3,10 @@
 package root
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/session"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/kdf"
+	"github.com/reachout-chat/axolotl-go/keys/chain"
+	"github.com/reachout-chat/axolotl-go/keys/session"
 )
 
 // DerivedSecretsSize is the size of the derived secrets for root keys.

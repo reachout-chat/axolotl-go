@@ -1,16 +1,16 @@
 package record
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/message"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/root"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/session"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/util/errorhelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/kdf"
+	"github.com/reachout-chat/axolotl-go/keys/chain"
+	"github.com/reachout-chat/axolotl-go/keys/identity"
+	"github.com/reachout-chat/axolotl-go/keys/message"
+	"github.com/reachout-chat/axolotl-go/keys/root"
+	"github.com/reachout-chat/axolotl-go/keys/session"
+	"github.com/reachout-chat/axolotl-go/logger"
+	"github.com/reachout-chat/axolotl-go/util/errorhelper"
+	"github.com/reachout-chat/axolotl-go/util/optional"
 )
 
 const maxMessageKeys int = 2000

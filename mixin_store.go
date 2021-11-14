@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"syscall/js"
 
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	groupRecord "github.com/RadicalApp/libsignal-protocol-go/groups/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	groupRecord "github.com/reachout-chat/axolotl-go/groups/state/record"
+	"github.com/reachout-chat/axolotl-go/keys/identity"
+	"github.com/reachout-chat/axolotl-go/logger"
+	"github.com/reachout-chat/axolotl-go/protocol"
+	"github.com/reachout-chat/axolotl-go/serialize"
+	"github.com/reachout-chat/axolotl-go/state/record"
+	"github.com/reachout-chat/axolotl-go/util/bytehelper"
 )
 
 // IdentityKeyStore

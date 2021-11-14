@@ -1,13 +1,13 @@
 package tests
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/groups"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/session"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/util/keyhelper"
+	"github.com/reachout-chat/axolotl-go/groups"
+	"github.com/reachout-chat/axolotl-go/keys/identity"
+	"github.com/reachout-chat/axolotl-go/protocol"
+	"github.com/reachout-chat/axolotl-go/serialize"
+	"github.com/reachout-chat/axolotl-go/session"
+	"github.com/reachout-chat/axolotl-go/state/record"
+	"github.com/reachout-chat/axolotl-go/util/keyhelper"
 )
 
 // user is a structure for a signal user.

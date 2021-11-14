@@ -10,18 +10,18 @@ import (
 
 	"syscall/js"
 
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/groups"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/prekey"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/provision"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/session"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/keyhelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/groups"
+	"github.com/reachout-chat/axolotl-go/keys/identity"
+	"github.com/reachout-chat/axolotl-go/keys/prekey"
+	"github.com/reachout-chat/axolotl-go/logger"
+	"github.com/reachout-chat/axolotl-go/protocol"
+	"github.com/reachout-chat/axolotl-go/provision"
+	"github.com/reachout-chat/axolotl-go/serialize"
+	"github.com/reachout-chat/axolotl-go/session"
+	"github.com/reachout-chat/axolotl-go/util/bytehelper"
+	"github.com/reachout-chat/axolotl-go/util/keyhelper"
+	"github.com/reachout-chat/axolotl-go/util/optional"
 )
 
 var serializer = serialize.NewProtoBufSerializer()

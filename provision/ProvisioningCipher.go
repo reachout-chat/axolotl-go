@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/RadicalApp/libsignal-protocol-go/cipher"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
+	"github.com/reachout-chat/axolotl-go/cipher"
+	"github.com/reachout-chat/axolotl-go/ecc"
 
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/root"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
+	"github.com/reachout-chat/axolotl-go/kdf"
+	"github.com/reachout-chat/axolotl-go/keys/root"
+	"github.com/reachout-chat/axolotl-go/util/bytehelper"
 )
 
 type ProvisionMessage struct {

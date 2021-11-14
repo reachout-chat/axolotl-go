@@ -4,15 +4,15 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/RadicalApp/libsignal-protocol-go/cipher"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/message"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/state/store"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
+	"github.com/reachout-chat/axolotl-go/cipher"
+	"github.com/reachout-chat/axolotl-go/ecc"
+	"github.com/reachout-chat/axolotl-go/keys/chain"
+	"github.com/reachout-chat/axolotl-go/keys/message"
+	"github.com/reachout-chat/axolotl-go/logger"
+	"github.com/reachout-chat/axolotl-go/protocol"
+	"github.com/reachout-chat/axolotl-go/state/record"
+	"github.com/reachout-chat/axolotl-go/state/store"
+	"github.com/reachout-chat/axolotl-go/util/bytehelper"
 )
 
 const maxFutureMessages = 2000
