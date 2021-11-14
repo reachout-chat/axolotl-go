@@ -7,7 +7,6 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-
 	"syscall/js"
 
 	"github.com/reachout-chat/axolotl-go/ecc"
