@@ -1,4 +1,4 @@
-module github.com/RadicalApp/libsignal-protocol-go
+module github.com/reachout-chat/axolotl-go
 
 go 1.17
 
