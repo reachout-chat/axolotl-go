@@ -56,6 +56,9 @@ func (j *ProtoBufSignalMessageSerializer) Serialize(signalMessage *protocol.Sign
 		logger.Error("Error serializing signal message: ", err)
 	}
 
+	fmt.Println("message:")
+	fmt.Println(message)
+
 	if signalMessage.Version != 0 {
 		serialized = append(serialized, []byte(strconv.Itoa(signalMessage.Version))...)
 	}
@@ -78,6 +81,9 @@ func (j *ProtoBufSignalMessageSerializer) Deserialize(serialized []byte) (*proto
 	version := highBitsToInt(parts[0][0])
 	message := parts[1]
 	mac := parts[2]
+
+	fmt.Println("message:")
+	fmt.Println(message)
 
 	var sm SignalMessage
 	err = proto.Unmarshal(message, &sm)
