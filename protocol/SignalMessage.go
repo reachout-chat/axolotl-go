@@ -4,6 +4,7 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"errors"
+	"log"
 	"strconv"
 
 	"github.com/reachout-chat/axolotl-go/ecc"
@@ -37,6 +38,7 @@ func NewSignalMessageFromBytes(serialized []byte, serializer SignalMessageSerial
 // NewSignalMessageFromStruct returns a Signal Ciphertext message from the
 // given serializable structure.
 func NewSignalMessageFromStruct(structure *SignalMessageStructure, serializer SignalMessageSerializer) (*SignalMessage, error) {
+	log.Println(structure)
 	// Throw an error if the given message structure is an unsupported version.
 	if structure.Version <= UnsupportedVersion {
 		err := "Legacy message: " + strconv.Itoa(structure.Version)
